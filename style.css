@@ -38,6 +38,8 @@ body {
 }
 
 #container {
+    position: absolute;
+    top: 0;
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -64,4 +66,9 @@ body {
 
 #p4 {
     color: #cff2f1;
+}
+#img {
+    height: 120px;
+    opacity: 0;
+    transition: 2s ease;
 }

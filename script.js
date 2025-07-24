@@ -1,6 +1,3 @@
-
-
-
 function checkPassword() {
     const input = document.getElementById("user-password").value;
     if (input === "LunDanMass") {
@@ -13,7 +10,10 @@ function checkPassword() {
         const scrambleElement3 = document.getElementById("p3");
         const scrambleElement4 = document.getElementById("p4");
         const button = document.getElementById("submit");
-        scrambleElement.style.opacity = 1;
+        
+        setTimeout(() => {
+            scrambleElement.style.opacity = 1;
+        }, 1000);
 
         setTimeout(() => {
             scrambleElement1.style.opacity = 1;
@@ -21,15 +21,15 @@ function checkPassword() {
 
         setTimeout(() => {
             scrambleElement2.style.opacity = 1;
-        }, 5000);
+        }, 7000);
 
         setTimeout(() => {
             scrambleElement3.style.opacity = 1;
-        }, 8000);
+        }, 13000);
 
         setTimeout(() => {
             scrambleElement4.style.opacity = 1;
-        }, 10000);
+        }, 15000);
     } else {
         alert("Incorrect password. Try again.");
         document.getElementById("user-password").value = "";
@@ -42,5 +42,3 @@ const p1 = "വേഷമിച്ചിരിക്കണോ അതോ ആ ന�
 const p2 = "Inniyum വേഷമിച്ചിരിക്കണേങ്കിൽ ആ ഗ്ലാസിൽ ഒരു large ozhich randu flowers um pidich oru fujifilm photo edukku. Color avatee!!";
 const p3 = "Ennna sheri gooyyss, എപ്പോഴെങ്കിലും kanaam😉";
 const p4 = "Variety Cringe Item: brought you by Jeswin Joy";
-
-
